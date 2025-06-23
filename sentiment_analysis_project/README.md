@@ -89,3 +89,16 @@ python gui/gui.py
 cd app
 python gradio_app.py
 ```
+### 🖼️ Tkinter를 사용한 GUI
+
+![Tkinter GUI](sentiment_analysis_project/NSMC_tkinter.png)
+
+`tkinter`를 사용한 감성 분석 GUI 프로그램입니다. 간단한 입력창과 결과창을 제공합니다.
+
+---
+
+### 🌐 Gradio를 활용한 웹 배포
+
+![Gradio Web App](sentiment_analysis_project/NSMC_gradio.png)
+
+Gradio를 사용하여 웹 기반 감성 분석 서비스를 만들었습니다. 사용자가 웹 브라우저에서 직접 입력하고 결과를 확인할 수 있습니다.
