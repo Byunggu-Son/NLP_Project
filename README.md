@@ -10,7 +10,7 @@
 
 ![Tkinter GUI](sentiment_analysis_project/NSMC_tkinter.png)
 
-Python의 `tkinter`를 활용해 간단한 형태의 감성 분석 데스크탑 애플리케이션을 구현했습니다.
+Python의 `tkinter`를 활용해 간단한 형태의 GUI를 구현했습니다.
 
 ---
 
