@@ -1,4 +1,4 @@
-#HR_QA_CHATBOT
+# HR_QA_CHATBOT
 
 사내 HR Q&A 챗봇은 OpenAI gpt-4o-mini와 text-embedding-3-small 기반의 RAG 챗봇입니다. FastAPI로 API를, Gradio로 UI를 구현하여 HR 문의 자동 응대를 목표합니다.
 
