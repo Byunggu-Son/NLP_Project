@@ -49,4 +49,4 @@ hr_qa_chatbot/
 ---
 
 ## 🌐 Gradio를 활용한 웹 배포
-![Gradio Web App](hr_qa_chatbot/hr_qa_chatbot_gradio_2.png)
+![Gradio Web App](hr_qa_chatbot_gradio_2.png)
