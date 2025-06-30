@@ -14,6 +14,8 @@ hr_qa_chatbot/
 ├── data/
 │ └── hr_policy_qa_samples.csv
 └── gradio_frontend.py
+└── requirements/
+    └── requirements.txt
 └── README.md
 ```
 
@@ -36,6 +38,20 @@ hr_qa_chatbot/
 - **선택 이유 및 장점**: 비용 대비 성능이 우수하며, 빠른 응답 속도를 제공하여 실시간 챗봇 서비스에 적합합니다. 입력 토큰 1백만 개당 15센트, 출력 토큰 1백만 개당 60센트로 비용 효율적이며, 낮은 지연 시간으로 사용자 경험을 향상시킵니다.
 ### 임베딩 : OpenAI `text-embedding-3-small`
 - **선택 이유 및 장점**: 의미 기반 검색에 최적화된 임베딩 모델로, 빠른 처리와 낮은 자원 소모가 장점입니다. 고품질 텍스트 임베딩을 생성하여 정확한 문서 검색을 가능하게 합니다.
+
+---
+
+## 🚀 실행 방법
+### 1. 필요한 패키지를 설치
+
+### 2. FastAPI 서버를 실행
+```
+uvicorn app.main:app --reload
+```
+### 3. 별도의 터미널에서 Gradio 프론트엔드를 실행
+```
+python gradio_frontend.py
+```
 
 ---
 
