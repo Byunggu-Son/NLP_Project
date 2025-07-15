@@ -10,6 +10,7 @@ hr_qa_chatbot/
 │ ├── init.py
 │ ├── main.py
 │ ├── rag_chain.py
+│ ├── vector_store.py
 │ └── document_loader.py
 ├── data/
 │ └── hr_policy_qa_samples.csv
